@@ -78,7 +78,10 @@ The project is organized into several directories, each containing scripts for s
 
 ### ECM Creation
 
-![!Figure](./Assets/ECM_SBF.jpg)
+<div style="display: flex; justify-content: center;">
+  <img src="./Assets/ECM_SBF.jpg" alt="ECM and SBF creation" style="width: 70%;">
+</div>
+*Caption: ECM and SBF creation*
 
 To create the ECG Characteristic Matrices (ECMs) for each user in the dataset, follow these steps:
 
@@ -145,7 +148,9 @@ The `Energy measurment` directory includes scripts and an Arduino sketch to eval
 ![Figure 10](./Assets/energy%20device%20scheme.jpg)  
 *Caption: Circuit diagram of the energy measurement device.*
 
-![Figure 15](./Assets/power%20consuption%20device%20setup.jpg)  
+<div style="display: flex; justify-content: center;">
+  <img src="./Assets/power consuption device setup.jpg" alt="Authentication protocol" style="width: 70%;">
+</div>
 *Caption: Setup of the power consumption measurement.*
 
 - **`ADC-4CH-PinReading-of-Rasp.ino`**: This Arduino sketch records the current, voltage, and calculated power consumption of the Raspberry Pi. It uses the Adafruit ADS1015 ADC to read analog inputs, stores data in CSV format on an SD card, and responds to a GPIO signal from the Raspberry Pi to start/stop recording.
