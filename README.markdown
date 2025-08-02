@@ -78,8 +78,8 @@ The project is organized into several directories, each containing scripts for s
 
 ### ECM Creation
 
-<div style="display: flex; justify-content: center;">
-  <img src="./Assets/ECM_SBF.jpg" alt="ECM and SBF creation" style="width: 70%;">
+<div align="center">
+    <img src="./Assets/ECM_SBF.jpg" alt="ECM and SBF creation" width="500">
 </div>
 *Caption: ECM and SBF creation*
 
@@ -148,8 +148,8 @@ The `Energy measurment` directory includes scripts and an Arduino sketch to eval
 ![Figure 10](./Assets/energy%20device%20scheme.jpg)  
 *Caption: Circuit diagram of the energy measurement device.*
 
-<div style="display: flex; justify-content: center;">
-  <img src="./Assets/power consuption device setup.jpg" alt="Authentication protocol" style="width: 70%;">
+<div align="center">
+    <img src="./Assets/power consuption device setup.jpg" alt="Setup of the power consumption measurement" width="500">
 </div>
 *Caption: Setup of the power consumption measurement.*
 
