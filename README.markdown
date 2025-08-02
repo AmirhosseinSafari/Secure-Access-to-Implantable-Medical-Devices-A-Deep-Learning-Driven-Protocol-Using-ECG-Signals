@@ -91,7 +91,7 @@ To create the ECG Characteristic Matrices (ECMs) for each user in the dataset, f
    - Example configuration in `bpf_EKMs.py`:
      ```python
      bpf = 5  # Number of heartbeats per ECM
-     duration = 6  # Duration of ECG segment in seconds
+     seconds = 6  # Duration of ECG segment in seconds
      ```
 3. **Run the script**:
    - Execute `bpf_EKMs.py` to process the ECG dataset. The script uses functions from `user_ekms_functions.py` to generate ECMs for each user.
@@ -105,7 +105,7 @@ To create the Signal-Based Features (SBFs) for each user in the dataset, follow 
    - Open `sbf_EKMs.py` and specify the time duration (in seconds) for each SBF. This determines the length of the ECG segment used to extract features.
    - Example configuration in `sbf_EKMs.py`:
      ```python
-     sbf_duration = 5  # Duration of ECG segment for SBF in seconds
+     sbf = 5  # Duration of ECG segment for SBF in seconds
      ```
 3. **Run the script**:
    - Execute `sbf_EKMs.py` to process the ECG dataset. The script uses functions from `user_ekms_functions.py` to generate SBFs for each user.
